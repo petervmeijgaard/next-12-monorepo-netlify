@@ -1,0 +1,20 @@
+{
+	"name": "next-12-monorepo-netlify",
+	"version": "1.0.0",
+	"description": "A Netlify monorepo example",
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"scripts": {
+		"dev": "turbo dev",
+		"build": "turbo build",
+		"start": "turbo start",
+		"lint": "turbo lint",
+		"format": "prettier --check --cache ."
+	},
+	"dependencies": {
+		"turbo": "^2.0.6",
+		"prettier": "^3.3.2"
+	},
+	"packageManager": "pnpm@8.15.8"
+}
