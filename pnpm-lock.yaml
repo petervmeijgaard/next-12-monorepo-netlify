@@ -27,6 +27,9 @@ importers:
         specifier: ^17.0.2
         version: 17.0.2(react@17.0.2)
     devDependencies:
+      '@netlify/plugin-nextjs':
+        specifier: ^5.5.1
+        version: 5.5.1
       '@types/node':
         specifier: ^20.14.10
         version: 20.14.10
@@ -105,6 +108,11 @@ packages:
   /@humanwhocodes/object-schema@2.0.3:
     resolution: {integrity: sha512-93zYdMES/c1D69yZiKDBj0V24vqNzB/koF26KPaagAfd3P/4gUlh3Dys5ogAK+Exi9QyzlD8x/08Zt7wIKcDcA==}
     deprecated: Use @eslint/object-schema instead
+    dev: true
+
+  /@netlify/plugin-nextjs@5.5.1:
+    resolution: {integrity: sha512-E0LP4HI6F1Us0va+rCpu9ecJh1GumoH/plQDvAteZv0C4nSP19tn1H+tJUjpVVDsoj6MWIB97ssMh8K0gen1zA==}
+    engines: {node: '>=18.0.0'}
     dev: true
 
   /@next/env@12.3.4:
