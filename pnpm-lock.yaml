@@ -15,7 +15,7 @@ importers:
         specifier: ^2.2.3
         version: 2.2.3
 
-  apps/web:
+  apps/main:
     dependencies:
       next:
         specifier: ^12.3.4
