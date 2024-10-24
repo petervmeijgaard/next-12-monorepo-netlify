@@ -18,6 +18,55 @@ importers:
         specifier: ^2.2.3
         version: 2.2.3
 
+  apps/docs:
+    dependencies:
+      clsx:
+        specifier: ^2.1.1
+        version: 2.1.1
+      next:
+        specifier: ^12.3.4
+        version: 12.3.4(react-dom@17.0.2(react@17.0.2))(react@17.0.2)
+      react:
+        specifier: ^17.0.2
+        version: 17.0.2
+      react-dom:
+        specifier: ^17.0.2
+        version: 17.0.2(react@17.0.2)
+      tailwind-merge:
+        specifier: ^2.5.4
+        version: 2.5.4
+    devDependencies:
+      '@acme/eslint-config':
+        specifier: workspace:*
+        version: link:../../packages/eslint-config
+      '@types/node':
+        specifier: ^20.17.0
+        version: 20.17.0
+      '@types/react':
+        specifier: ^17.0.83
+        version: 17.0.83
+      '@types/react-dom':
+        specifier: ^17.0.25
+        version: 17.0.25
+      autoprefixer:
+        specifier: ^10.4.20
+        version: 10.4.20(postcss@8.4.47)
+      eslint:
+        specifier: ^9.13.0
+        version: 9.13.0(jiti@1.21.6)
+      eslint-config-next:
+        specifier: ^12.3.4
+        version: 12.3.4(eslint@9.13.0(jiti@1.21.6))(typescript@5.6.3)
+      postcss:
+        specifier: ^8.4.47
+        version: 8.4.47
+      tailwindcss:
+        specifier: ^3.4.14
+        version: 3.4.14
+      typescript:
+        specifier: ^5.6.3
+        version: 5.6.3
+
   apps/main:
     dependencies:
       clsx:
