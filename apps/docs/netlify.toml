@@ -6,8 +6,8 @@ port = 8888
 targetPort = 3000
 autoLaunch = false
 
-# Cache "/docs-static/_next/*" assets for 1 year
+# Cache "/docs-static/_next/static/*" assets for 1 year
 [[headers]]
-for = "/docs-static/_next/*"
+for = "/docs-static/_next/static/*"
 [headers.values]
 "Cache-Control" = "max-age=31560000, immutable"
