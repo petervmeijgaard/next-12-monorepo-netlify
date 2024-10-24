@@ -4,7 +4,7 @@
 	"description": "A Netlify monorepo example",
 	"keywords": [],
 	"author": "",
-	"license": "ISC",
+	"license": "MIT",
 	"scripts": {
 		"dev": "turbo dev",
 		"build": "turbo build",
@@ -13,8 +13,8 @@
 		"format": "prettier --check --cache ."
 	},
 	"dependencies": {
-		"turbo": "^2.0.6",
-		"prettier": "^3.3.2"
+		"turbo": "^2.2.3",
+		"prettier": "^3.3.3"
 	},
-	"packageManager": "pnpm@8.15.8"
+	"packageManager": "pnpm@9.12.2"
 }

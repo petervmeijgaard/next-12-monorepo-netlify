@@ -2,6 +2,7 @@
 deno.lock
 
 # Directories
+.idea
 .netlify
 .turbo
 node_modules
