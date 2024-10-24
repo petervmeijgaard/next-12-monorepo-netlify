@@ -4,7 +4,7 @@ export default function Home() {
 	return (
 		<div className="container m-auto grid gap-4 p-4">
 			<Navigation />
-			<main className="rounded-md border p-4">Welcome to the home page!</main>
+			<main className="rounded-md border p-4">Welcome to the docs page!</main>
 		</div>
 	);
 }
