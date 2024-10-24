@@ -1,0 +1,6 @@
+# Directories
+.turbo
+node_modules
+
+# Files
+.eslintcache
